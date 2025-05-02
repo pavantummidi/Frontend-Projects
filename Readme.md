@@ -26,11 +26,15 @@ If you like this repo, be sure to ⭐ it.
 
  In the slide show project, I reduced the size of javascript code for the same output.
 
-  <script>
+<pre> <script>
     
-let slideIndex = 1;
+  let slideIndex = 1;
+
+   
 const slides = document.getElementsByClassName("mySlides");
 
+
+   
 function showSlides(n) {
   if (n > slides.length) slideIndex = 1;
   if (n < 1) slideIndex = slides.length;
@@ -45,7 +49,7 @@ function changeSlide(n) {
 
 showSlides(slideIndex);
 
-// Disable right-click and dev tools
+
 document.addEventListener("contextmenu", e => e.preventDefault());
 document.onkeydown = e => {
   if (
@@ -56,4 +60,4 @@ document.onkeydown = e => {
     return false;
   }
 }
-  </script>
+  </script>  </pre> 
